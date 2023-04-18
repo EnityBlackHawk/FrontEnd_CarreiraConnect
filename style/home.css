@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500&family=Poppins&family=Prompt:wght@600&display=swap');
+
+body {
+    background-color: #8257E5;
+}
+
+header {
+    padding: 100px 0 0 61px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-size: 40px;
+}
+
+.description > h2 {
+    height: 184px;
+    color: #D4C2FF;
+    font-family: 'Poppins';
+    font-size: 64px;
+
+    padding: 100px 0 0 64px;
+}
+
+.selectionType {
+    margin: 70px 0 0 64px;
+    height: 70px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.typeButton {
+    height: 63.1px;
+    width: 209.8px;
+    background-color: #04D361;
+    color: #FFFFFF;
+    font-family: 'Archivo';
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.login {
+    background-color: azure;
+    
+}
+
+.loginButton {
+    height: 63.1px;
+    width: 209.8px;
+    background-color: #9871F5;
+    color: #FFFFFF;
+    margin: 40px 0 0 64px;
+    font-family: 'Archivo';
+    font-weight: 100;
+    font-size: 18px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.saibaMaisButton {
+    height: 50px;
+    width: 120px;
+    border-radius: 50px;
+    border-style: none;
+    font-family: 'Archivo';
+    font-weight: 400;
+    background-color: #FFFFFF;
+    margin-right: 100px;
+}
