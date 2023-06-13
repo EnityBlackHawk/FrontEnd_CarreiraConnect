@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500&family=Poppins&family=Prompt:wght@600&display=swap');
+
+main {
+    display: flex;
+    flex-direction: row;
+    max-height: 300vh;
+}
+
+#left-section {
+    width: 40%;
+    height: 150vh;
+    background-color: #8257E5;
+    font-family: 'Poppins';
+}
+
+#left-section > h1 {
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 50px 0 0 45px;
+    margin-bottom: 60px;
+}
+
+#left-section p {
+    font-size: 40px;
+    color: #D4C2FF;
+    padding: 25px 0 0 45px;
+    margin-top: 35px;
+}
+
+#left-section .paragrafos {
+    position: relative;
+    bottom: 35px;
+}
+
+#container-form {
+    margin-left: 25%;
+}
+
+
+.right-login {
+    width: 60%;
+    height: 150vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #DDDDDD;
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login > h2 {
+    color: #000000;
+    font-weight: 800;
+    margin: 0;
+    font-family: 'Poppins';
+    font-size: 30px;
+}
+
+.card-login > h2 > span {
+    color: #8257E5;
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #FFFFFF;
+    color: gray;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: #000000;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+}
+
+.textfield > input::placeholder {
+    color: #f0ffff94;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0;
+    margin: 25px 0 0 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: white;
+    background: #04D361;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-size: 20px;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.btn-google:hover {
+    cursor: pointer;
+}
+.btn-google > img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.btn-google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 16px 0;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #007DFA;
+    background-color: #24EF7F;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 20px;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.entrar {
+    font-family: 'Poppins';
+}
+
+.entrar > a {
+    text-decoration: none;
+    color: #04D361;
+    font-size: 16px;
+}
+
+@media only screen and (max-width:480px) { /* configuração para dispositivos móveis pequenos */
+   main {
+    flex-direction: column;
+    max-height:auto;
+   }
+
+   #left-section {
+    width:100%;
+    height:auto;
+   }
+
+   .right-login {
+    width:100%;
+    height:auto;
+    padding-bottom:20px;
+    padding-top: 20px;
+   }
+
+   #left-section > h1 {
+    font-size: 25px;
+    margin-bottom:30px;
+    text-align:left;
+   }
+
+   #left-section p {
+    font-size: 20px;
+    margin-top:15px;
+    text-align: left;
+   }
+
+   #left-section .paragrafos {
+    position: relative;
+    bottom: 20px;
+   }
+
+   .card-login > h2 {
+    font-size:15px;
+    }
+
+    .textfield > label {
+     font-size:10px;
+    }
+
+    .textfield > input {
+        height:20px;
+    }
+
+    .btn-login {
+       font-size: 10px;
+    }
+
+    .btn-google{
+        font-size: 10px;
+    }
+
+    .btn-google > img {
+        width:25px;
+        height:25px;
+    }
+
+    .entrar {
+        font-size: 12px;
+    }
+
+    .entrar > a {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) { /* configuração para tablets */
+    main {
+        flex-direction: column;
+        max-height:auto;
+    }
+
+    #left-section {
+        width:100%;
+        height:auto;
+    }
+
+    .right-login {
+        width:100%;
+        height:auto;
+        padding-bottom:20px;
+        padding-top: 20px;
+    }
+
+    #left-section > h1 {
+        font-size: 35px;
+        margin-bottom:30px;
+        text-align:left;
+    }
+
+    #left-section p {
+        font-size: 30px;
+        margin-top:15px;
+        text-align: left;
+    }
+
+    #left-section .paragrafos {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .card-login > h2 {
+        font-size:20px;
+    }
+
+    .textfield > label {
+        font-size:12px;
+    }
+
+    .textfield > input {
+        height:25px;
+    }
+
+    .btn-login {
+        font-size: 12px;
+    }
+
+    .btn-google{
+        font-size: 12px;
+    }
+
+    .btn-google > img {
+        width:25px;
+        height:25px;
+    }
+
+    .entrar {
+        font-size: 18px;
+    }
+
+    .entrar > a {
+        font-size: 18px;
+    }
+}

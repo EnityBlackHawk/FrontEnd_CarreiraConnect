@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500&family=Poppins&family=Prompt:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500&display=swap');
+
+body {
+    margin:0%;
+    padding:0%;
+    max-width: 100%;
+}
+
+header {
+    height: 370px;
+    width: 100%;
+    background-color: #8257E5;
+    display: flex;
+    flex-direction: column;
+}
+
+#subtitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+    color: #FFFFFF;
+    padding: 90px 0 0 45px;
+    margin-bottom: 80px;
+    font-family: 'Poppins';
+}
+
+h3 {
+    font-size: 35px;
+    color: #FFFFFF;
+    font-family: 'Archivo';
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#msg > p {
+    font-size: 16px;
+    color: #D4C2FF;
+    font-family: 'Poppins';
+    margin-top: 10px;
+}
+
+main {
+    background-color: #E5E5E5;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    border-radius: 8px;
+    height: 80%;
+    background-color: #FFFFFF;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0;
+    width: 80%;
+}
+
+.input-label {
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #9C98A6;
+    margin-bottom: 10px;
+}
+
+.input {
+    border-radius: 8px;
+    width: 100%;
+    height: 45px;
+    background-color: #FAFAFC;
+    border-color: #E6E6F0;
+    border-width: 1px;
+    font-family: 'Poppins';
+    font-size: 25px;
+}
+
+.input-text-area {
+    border-radius: 8px;
+    width: 100%;
+    height: 170px;
+    background-color: #FAFAFC;
+    border-color: #E6E6F0;
+    border-width: 1px;
+    font-family: 'Poppins';
+    font-size: 25px;
+}
+
+.typeButton {
+    height: 63.1px;
+    width: 209.8px;
+    background-color: #04D361;
+    color: #FFFFFF;
+    font-family: 'Archivo';
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+#footer-form {
+    margin-top: 25px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#footer-form > p {
+    font-family: 'Poppins';
+    font-size: 12;
+    color: #A0A0B2;
+}
+
+.emoji {
+    font-size: 50px;
+    color: #8257E5;
+}
+
+.form-title {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.form-title > p {
+    padding-left: 100px;
+    font-family: 'Archivo';
+    font-weight: bold;
+    font-size: 24px;
+    color: #32264D;
+}
+
+.form-title > span {
+    font-family: 'Archivo';
+    font-size: 24px;
+}
+
+.form-title-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-title-header > span > p {
+    font-family: 'Archivo';
+    font-size: 24px;
+    color: #32264D;
+    padding-right: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #04D361;
+}
+
+@media only screen and (max-width:320px){ /* configuração para dispositivos móveis pequenos */
+
+h1 {
+    font-size: 20px;
+    padding: 90px 0 0 45px;
+    margin-bottom: 90px;
+}
+
+h3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#msg > p {
+   font-size: 12px;
+   margin-top: 10px;
+}
+
+.form-title > p {
+    padding-left: 20px;
+    font-size: 12px;
+   
+}
+
+.form-title-header > span > p {
+    font-size: 12px;   
+    padding-right: 20px;
+}
+
+
+#container {
+    width: 70%;
+}
+
+.input-label {
+    font-size: 12px;
+}
+
+.input {
+    height: 20px;
+    font-size: 12px;
+}
+
+.input-text-area {
+    height: 120px;
+    font-size: 12px;
+}
+
+#footer-form {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#footer-form > p {
+    font-size: 10;
+}
+
+.emoji {
+    font-size: 30px;
+}
+
+
+.typeButton {
+    height: 33.1px;
+    width: 195.8px;
+    font-size: 13px;
+}
+}
+
+@media only screen and (min-width:321px) and (max-width:480px) { /* configuração adicional para celulares */
+
+    h1 {
+        font-size: 30px;
+        padding: 90px 0 0 45px;
+        margin-bottom: 90px;
+    }
+    
+    h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    
+    #msg > p {
+       font-size: 12px;
+       margin-top: 10px;
+    }
+    
+    .form-title > p {
+        padding-left: 20px;
+        font-size: 15px;
+       
+    }
+    
+    .form-title-header > span > p {
+        font-size: 15px;   
+        padding-right: 20px;
+    }
+    
+    
+    #container {
+        width: 70%;
+    }
+    
+    .input-label {
+        font-size: 12px;
+    }
+    
+    .input {
+        height: 25px;
+        font-size: 12px;
+    }
+    
+    .input-text-area {
+        height: 120px;
+        font-size: 12px;
+    }
+    
+    #footer-form {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    #footer-form > p {
+        font-size: 10;
+    }
+    
+    .emoji {
+        font-size: 30px;
+    }
+    
+    
+    .typeButton {
+        height: 33.1px;
+        width: 195.8px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) { /* configuração para tablets */
+
+    h1 {
+        font-size: 40px;
+        padding: 100px 0 0 45px;
+        margin-bottom: 80px;
+    }
+    
+    h3 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    
+    #msg > p {
+       font-size: 15px;
+       margin-top: 10px;
+    }
+    
+    .form-title > p {
+        padding-left: 20px;
+        font-size: 20px;
+       
+    }
+    
+    .form-title-header > span > p {
+        font-size: 20px;   
+        padding-right: 20px;
+    }
+    
+    
+    #container {
+        width: 70%;
+    }
+    
+    .input-label {
+        font-size: 20px;
+    }
+    
+    .input {
+        height: 40px;
+        font-size: 15px;
+    }
+    
+    .input-text-area {
+        height: 140px;
+        font-size: 15px;
+    }
+    
+    #footer-form {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    #footer-form > p {
+        font-size: 10;
+    }
+    
+    .emoji {
+        font-size: 30px;
+    }
+    
+    
+    .typeButton {
+        height: 53.1px;
+        width: 195.8px;
+        font-size: 15px;
+    }
+
+}

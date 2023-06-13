@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Carreira Connect - Cadastro - recrutador</title>
+
+    <body>
+
+        <header>
+            <div id="title">
+                <h1>Carreira Connect</h1>
+            </div>
+            
+            <div id="subtitle">
+                <div id="msg">
+                    <h3>Criar conta como Estudante</h3>
+                    <p>Selecione o que achar melhor e se adeque à vaga</p>
+                    <p>que mais deseja</p>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            
+            <div id="container">
+
+                <form>
+                    <div class="form-title form-title-header" >
+                        <p>
+                            Seus dados
+                        </p>
+
+                        <span><p>Já possui uma conta? <a href="#">Entrar</a></p></span>
+
+                    </div>
+
+                    <div class="textfield">
+                        <label for="nome" class="input-label">Nome completo:</label>
+                        <input type="text" id="nome" name="nome" class="input" required><br>
+                    </div>
+
+                    <div class="textfield">
+                        <label for="email" class="input-label">Email:</label>
+                        <input type="text" id="email" name="email" class="input" required><br>
+                    </div>
+
+                    <div class="textfield">
+                        <label for="contato" class="input-label">Contato:</label>
+                        <input type="tel" id="email" name="contato" class="input" required><br>
+                    </div>
+
+                    <div class="textfield">
+                        <label for="sobre-mim" class="input-label">Sobre mim:</label>
+                        <textarea id="sobre-mim" name="sobre-mim" class="input-text-area"></textarea><br>
+                    </div>
+
+                    <div class="form-title">
+                        <p>
+                            Sobre qual vaga está buscando
+                        </p>
+                    </div>
+
+                    <div class="textfield">
+                        <label for="preferencia" class="input-label">Preferências de vaga que busca:</label>
+                        <textarea id="preferencia" name="preferencia" class="input-text-area"></textarea><br>
+                    </div>
+
+                    <div class="textfield">
+                        <label for="habilidades" class="input-label">Habilidades que tenho:</label>
+                        <textarea id="habilidades" name="habildiades" class="input-text-area"></textarea><br>
+                    </div>
+
+                    <div class="textfield">
+                        <label for="qualificacoes" class="input-label">Qualificações/cursos que tenho:</label>
+                        <textarea id="qualificacoes" name="qualificacoes" class="input-text-area"></textarea><br>
+                    </div>
+
+                    <div class="textfield">
+                        <label for="areas" class="input-label">Minhas áreas de atuação:</label>
+                        <select id="areas" name="areas" class="input">
+                            <!--adicionar as areas-->
+                        </select>
+                    </div>
+
+                    <div id="footer-form">
+
+                        <p class="emoji">&#9888</p>
+                        <p><span class="emoji"></span>Importante!<br>Preencha todos os dados</p>
+
+                        <button class="typeButton">
+                            Salvar cadastro
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+
+        </main>
+
+    </body>
+
+</head>
