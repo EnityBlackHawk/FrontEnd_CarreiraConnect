@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500&family=Poppins&family=Prompt:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500&display=swap');
+
+header {
+    height: 200px;
+    width: 100%;
+    background-color: #8257E5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#title {
+    width: 30%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 40px 0 0 45px;
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+}
+
+#div-search-component {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-component {
+    height: 40px;
+    width: 50%;
+    border-radius: 8px;
+    border-style: none;
+    border-color: #5F6163;
+    color: #5F6163;
+}
+
+#user-space {
+    width: 20%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#user-space > p {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family: 'Poppins';
+}
+
+#user-name {
+    font-weight: bold;
+}
+
+#user-space > img {
+    max-width: 30px;
+    max-width: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+aside {
+    width: 20%;
+    float: left;
+}
+
+aside > ul {
+    padding-top: 30px;
+}
+
+aside > ul > li {
+    padding-bottom: 50px;
+}
+
+#navigation > ul > li > a {
+    text-decoration: none;
+    color: #04D361;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+#navigation > ul > li > a:hover {
+    color: #8257E5;
+}
+
+#last-item-navigation {
+    padding-bottom: 130px;
+}
+
+main {
+    width: 80%;
+    height: 460px;
+    background-color: #E3E0E0;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    width: 90%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.card > #description {
+    width: 40%;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card > #description > .title {
+    font-family: 'Archivo';
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 15px; 
+}
+
+.card > #description > p {
+    font-family: 'Archivo';
+    font-weight: bold;
+    font-size: 12px;
+    color: #6A6180;
+    line-height: 1.5;
+}
+
+.card > #requirements {
+    width: 30%;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card > #requirements > ul > li {
+    margin-top: 10px;
+    font-family: 'Archivo';
+    font-size: 12px;
+    color: #6A6180;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#submit {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    margin-right: 25px;
+    width: 30%;
+}
+
+.button-card {
+    height: 35%;
+    width: 45%;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    border-style: none;
+    font-size: 70%;
+}
+
+#candidatar {
+    background-color: #9871F5;
+}
+
+#mais-detalhes {
+    background-color: #04D361;
+}

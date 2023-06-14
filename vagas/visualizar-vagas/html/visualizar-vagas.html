@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--TODO alterar o local do reset.css para ser global-->
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/visualizar-vagas.css">
+    <title>Carreira Connect - Vagas</title>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>Carreira Connect</h1>
+        </div>
+
+        <div id="div-search-component">
+            <input type="text" id="search-component" placeholder="&#128269; Pesquisar">
+        </div>
+
+        <div id="user-space">
+            <p>Olá, <span id="user-name">user</span> </p>
+            <img src="../../../resources/img/picture-default.png">
+        </div>
+    </header>
+
+    <aside id="navigation">
+
+        <!--TODO: adicionar os logos de cada item
+        Depois de adicionar possivelmente vai ter que ser alterado o css para alinhar-->
+        <ul>
+            <li><a href="#">Página inicial</a></li>
+            <li><a href="#">Notificações</a></li>
+            <li><a href="#">Vagas</a></li>
+            <li id="last-item-navigation"><a href="#">Mensagens</a></li>
+
+            <li><a href="#" id="config">Configurações</a></li>
+        </ul>        
+    </aside>
+
+    <main>
+        
+        <div class="card">
+            <div id="description">
+                <!--TODO: verificar adição do icone de imagem-->
+                <!--TODO: verificar adição do logo verde no canto direito superior desta div-->
+                <h4 class="title">Vaga de estágio para Designer industrial</h4>
+                <p>Conhecimentos e experiência em utilização de ferramentas de desenho industrial, tais como AutoCad e CorelDraw para elaboração de moldes de peças mecânicas...</p>
+            </div>
+
+            <div id="requirements">    
+                <ul>
+                    <li>- 20h semanais / Vale Alimentação / Vale Transporte</li>
+                    <li>- Salário a combinar</li>
+                    <li>- Horário: 8h - 12h</li>
+                    <li>- Cursando Design ou Eng. Mecânica</li>
+                </ul>
+            </div>
+
+            <div id="submit">
+                <button class="button-card" id="candidatar">Candidatar-se à vaga</button>
+                <button class="button-card" id="mais-detalhes">+ Mais Detalhes</button>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>

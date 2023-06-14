@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500&family=Poppins&family=Prompt:wght@600&display=swap');
+
+body {
+    background-color: #8257E5;
+}
+
+header {
+    padding: 100px 0 0 61px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-size: 40px;
+}
+
+.description > h2 {
+    height: 184px;
+    color: #D4C2FF;
+    font-family: 'Poppins';
+    font-size: 64px;
+
+    padding: 60px 0 0 64px;
+}
+
+.selectionType {
+    margin: 40px 0 0 64px;
+    height: 70px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.typeButton {
+    height: 63.1px;
+    width: 209.8px;
+    background-color: #04D361;
+    color: #FFFFFF;
+    font-family: 'Archivo';
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.login {
+    background-color: azure;
+    
+}
+
+.loginButton {
+    height: 63.1px;
+    width: 209.8px;
+    background-color: #9871F5;
+    color: #FFFFFF;
+    margin: 40px 0 0 64px;
+    font-family: 'Archivo';
+    font-weight: 100;
+    font-size: 18px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.saibaMaisButton {
+    height: 50px;
+    width: 120px;
+    border-radius: 50px;
+    border-style: none;
+    font-family: 'Archivo';
+    font-weight: 400;
+    background-color: #FFFFFF;
+    margin-right: 100px;
+}
+
+@media only screen and (max-width:320px){ /* configuração para dispositivos móveis pequenos */
+
+header {
+    padding: 42px 0 0 61px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+.description > h2 {
+    font-size: 33px;
+    padding: 45px 0 0 64px;
+}
+
+.description h2 br {
+        display:none;
+}
+
+.selectionType {
+    margin: 0px 0 0 64px;
+}
+
+.typeButton {
+    height: 43.1px;
+    width: 189.8px;
+}
+
+#btnest {
+    position:relative;
+    bottom: 18px;
+}
+
+#btnrect {
+    position:relative;
+    top: 47px;
+    right: 260px;
+}
+
+.loginButton {
+    height: 43.1px;
+    width: 189.8px;
+    position:relative;
+    top:3px;
+}
+
+footer {
+    position:fixed;
+    right:225px;
+    top:470px;
+}
+
+}
+
+@media only screen and (min-width:321px) and (max-width:480px) { /* configuração adicional para celulares */
+
+header {
+    padding: 42px 0 0 61px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+.description {
+    position:relative;
+    bottom:15px;
+}
+
+.description > h2 {
+    font-size: 18px;
+    padding: 45px 0 0 64px;
+}
+        
+.selectionType {
+    margin: 0px 0 0 64px;
+}
+
+.typeButton {
+    height: 30.1px;
+    width: 176.8px;
+    font-size:12px;
+}
+
+#btnest {
+    position:relative;
+    bottom: 120px;
+}
+
+#btnrect {
+    position:relative;
+    top: -70px;
+    right: 273px;
+}
+
+.loginButton {
+    height: 30.1px;
+    width: 176.8px;
+    position:relative;
+    top:-130px;
+}
+
+footer {
+    position:fixed;
+    right:245px;
+    top:312px;
+}
+
+.saibaMaisButton {
+    height: 35px;
+    width: 105px;
+}
+
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) { /* configuração para tablets */
+
+header {
+    padding: 42px 0 0 61px;
+}
+    
+h1 {
+    font-size: 12px;
+}
+    
+.description {
+    position:relative;
+    bottom:15px;
+}
+    
+.description > h2 {
+    font-size: 12px;
+    padding: 45px 0 0 64px;
+}
+            
+.selectionType {
+    margin: 0px 0 0 64px;
+}
+    
+.typeButton {
+    height: 30.1px;
+    width: 112.8px;
+    font-size:12px;
+}
+    
+#btnest {
+    position:relative;
+    bottom: 120px;
+}
+    
+#btnrect {
+    position:relative;
+    top: -120px;
+    right: 212px;
+}
+    
+.loginButton {
+    height: 30.1px;
+    width: 112.8px;
+    font-size:12px;
+    position:relative;
+    top:-180px;
+}
+    
+footer {
+    position:fixed;
+    left:-250px;
+    top:255px;
+    max-width: 515px;
+    margin-left:auto;
+    margin-right:auto;
+}
+    
+.saibaMaisButton {
+    height: 30px;
+    width: 100px;
+}
+    
+}
+
