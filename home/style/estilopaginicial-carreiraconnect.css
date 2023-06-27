@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    width: 100vw;
+    height: 100vh;
+}
+
+#pesquisar-simbolo {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+
+#logo {
+    font-size: 33px;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+}
+
+#pesqdiv {
+    width: 50%;
+    position: relative;
+    right: 130px;
+    top: 30px;
+}
+
+#pesquisar-caixa {
+    border-radius: 8px;
+    font-size: 15px;
+    height: 36px;
+    width: 300px;
+}
+
+#userdiv {
+    width: 50%;
+}
+
+#user-simbolo {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 10px;
+}
+
+#ola-user {
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+}
+
+.container-principal {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+}
+
+.item-1 {
+    grid-column: 1/5;
+    grid-row: 1/3;
+    background-color: #8257E5;
+}
+
+.item-2 {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 3/5;
+    justify-items: center;
+    align-items: center;
+}
+
+.item-3 {
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 3/5;
+    justify-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #bfbfbf;
+}
+
+.item-4 {
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 3/5;
+    justify-items: center;
+    align-items: start;
+    padding: 10px 10px;
+}
+
+.pai-ct2 {
+    width: 100%;
+    height: 100%;
+}
+
+.container-2 {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: 'l p p p u';
+}
+
+.item-2-1 {
+    display: grid;
+    grid-area: l;
+    justify-items: center;
+    align-items: center;
+}
+
+.item-2-2 {
+    display: grid;
+    grid-area: p;
+    justify-items: center;
+    align-items: center;
+}
+
+.item-2-3 {
+    display: grid;
+    grid-area: u;
+    justify-items: end;
+    align-items: start;
+}
+
+.pai-topicos {
+    display: grid;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    height: 80%;
+}
+
+#paginicial {
+    display:grid;
+    justify-items: center;
+}
+
+#notificacoes {
+    display:grid;
+    justify-items: center;
+}
+
+#vagas {
+    display:grid;
+    justify-items: center;
+}
+
+#mensagens {
+    display:grid;
+    justify-items: center;
+}
+
+#configuracoes {
+    display:grid;
+    justify-items: center;
+    align-items: end;
+}
+
+#lbl-paginicial {
+    color: #8257E5;
+}
+
+#lbl-notific {
+    color: #04D361;
+}
+
+#lbl-vagas {
+    color: #04D361;
+}
+
+#lbl-msg {
+    color: #04D361;
+}
+
+#lbl-config {
+    color: #04D361;
+}
+
+.pai-publicacoes {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #737373;
+    width: 90%;
+}
+
+#circulo-n-pb {
+    width: 90px;
+    height: 50px;
+    position:relative;
+    right: 20px;
+    top: 4px;
+    display: inline;
+}
+
+#novapublicacao {
+    background-color: #FFF;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+#lbl-n-pb {
+    position: relative;
+    bottom: 15px;
+    right: 30px;
+}
+
+.publicacoes {
+    background-color: #FFF;
+    border-radius: 8px;
+    height: auto;
+    width: auto;
+}
+
+#circulo-pb {
+    width: 90px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+}
+
+#lbl-nome-user {
+    color: black;
+    position: relative;
+    bottom: 20px;
+    right: 15px;
+}
+
+#lbl-tipo-user {
+    position: relative;
+    right: 110px;
+    top: 5px;
+    font-size: 15px;
+}
+
+#descricao-pb {
+    position: relative;
+    left: 80px;
+    font-size: 12px;
+}
+
+#btn-candidatar-vaga {
+    font-family: 'Poppins', sans-serif;
+    height: 40px;
+    font-size: 10px;
+    font-weight: 700;
+    position: relative;
+    left: 280px;
+    top: 5px;
+    border-radius: 8px;
+    background-color: #8257E5;
+    color: #FFF;
+}
+
+#btn-contato {
+    font-family: 'Poppins', sans-serif;
+    height: 40px;
+    font-size: 10px;
+    font-weight: 700;
+    position: relative;
+    left: 300px;
+    top: 5px;
+    border-radius: 8px;
+    background-color: #04D361;
+    color: #FFF;
+}
+
+#qb {
+    color: #FFF;
+}
+
+.pai-card1-user {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    width: 90%;
+    padding: 8px;
+}
+
+#card-usuario {
+    border-radius: 8px;
+    background-color: black;
+    padding: 8px;
+}
+
+#circulo-cd-user {
+    width: 110px;
+    height: 70px;
+    position: relative;
+    right: 15px;
+}
+
+#lbl-nome-user-c {
+    position: relative;
+    right: 35px;
+    bottom: 40px;
+}
+
+#lbl-tipo-user-c {
+    font-size: 10px;
+    position: relative;
+    left: 80px;
+    bottom: 50px;
+}
+
+#info-card-user {
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+    width: 70%;
+}
+
+#cj-lbl-seguindo {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cj-lbl-seguidores {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 8px;
+}
+
+#cj-lbl-candidaturas {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 12px;
+}
+
+#cj-btn-card-user {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-card-user {
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #00ff00;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+}
+
+.pai-card2-recomendacoes {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    width: 90%;
+    padding: 8px;
+}
+
+#card-recomendacoes {
+    border-radius: 8px;
+    background-color: black;
+    padding: 8px;    
+}
+
+#cj-titulo-recomendacoes {
+    display: flex;
+    justify-content: center;
+}
+
+#lbl-titulo-recomendacoes {
+    color: #8257E5;
+}
+
+#circulo-cd-recomendacoes {
+    width: 110px;
+    height: 70px;
+    position: relative;
+    right: 15px;
+}
+
+#lbl-nome-user-r {
+    font-size: 14px;
+    position: relative;
+    right: 35px;
+    bottom: 40px;
+}
+
+#lbl-tipo-user-r {
+    font-size: 10px;
+    position: relative;
+    left: 80px;
+    bottom: 50px;
+}
+
+.cj-btn-card-recomendacoes {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;   
+}
+
+.btn-card-recomendacoes {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 50px;
+    background-color: #00ff00;
+    color: black;
+}
